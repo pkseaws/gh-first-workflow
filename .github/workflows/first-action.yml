@@ -5,7 +5,9 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: Print Greating
-          run: echo "Hello First Job"
+          run: |
+              echo "Hello First Job"
+              echo "Welcome to Actions"
         - name: Print Bye
           run: echo "Done.. Bye!"
       
